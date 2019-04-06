@@ -94,7 +94,7 @@ type BitcoinNet uint32
 // better idea to simply disconnect clients that are misbehaving over TCP.
 const (
 	// MainNet represents the main bitcoin network.
-	MainNet BitcoinNet = 0xe9fdc491
+	MainNet BitcoinNet = 0xeafdc491
 
 	// TestNet represents the regression test network.
 	TestNet BitcoinNet = 0x477665ba
