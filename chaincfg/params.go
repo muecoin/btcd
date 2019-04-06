@@ -221,10 +221,10 @@ type Params struct {
 var MainNetParams = Params{
 	Name:        "main",
 	Net:         wire.MainNet,
-	DefaultPort: "11771",
+	DefaultPort: "19687",
 	DNSSeeds: []DNSSeed{
-		{"dns0.phore.io", true},
-		{"phore.seed.rho.industries", true},
+		{"dns1.monetaryunit.org", true},
+		{"dns2.monetaryunit.org", true},
 	},
 
 	// Chain parameters
