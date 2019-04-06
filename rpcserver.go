@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The muecoin developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/websocket"
+	"github.com/muecoin/websocket"
 	"github.com/muecoin/btcd/blockchain"
 	"github.com/muecoin/btcd/blockchain/indexers"
 	"github.com/muecoin/btcd/btcec"
@@ -2099,7 +2099,7 @@ func handleGetHashesPerSec(s *rpcServer, cmd interface{}, closeChan <-chan struc
 
 // handleGetHeaders implements the getheaders command.
 //
-// NOTE: This is a btcsuite extension originally ported from
+// NOTE: This is a muecoin extension originally ported from
 // github.com/decred/dcrd.
 func handleGetHeaders(s *rpcServer, cmd interface{}, closeChan <-chan struct{}) (interface{}, error) {
 	c := cmd.(*btcjson.GetHeadersCmd)
@@ -3432,7 +3432,7 @@ func handleVerifyMessage(s *rpcServer, cmd interface{}, closeChan <-chan struct{
 
 // handleVersion implements the version command.
 //
-// NOTE: This is a btcsuite extension ported from github.com/decred/dcrd.
+// NOTE: This is a muecoin extension ported from github.com/decred/dcrd.
 func handleVersion(s *rpcServer, cmd interface{}, closeChan <-chan struct{}) (interface{}, error) {
 	result := map[string]btcjson.VersionResult{
 		"btcdjsonrpcapi": {

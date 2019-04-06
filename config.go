@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/muecoin/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/muecoin/btcd/blockchain"
 	"github.com/muecoin/btcd/chaincfg"

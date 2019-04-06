@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -44,7 +44,7 @@ func btcdExecutablePath() (string, error) {
 		return "", err
 	}
 
-	// Determine import path of this package. Not necessarily btcsuite/btcd if
+	// Determine import path of this package. Not necessarily muecoin/btcd if
 	// this is a forked repo.
 	_, rpctestDir, _, ok := runtime.Caller(1)
 	if !ok {

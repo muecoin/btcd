@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -17,13 +17,13 @@ import (
 
 	"github.com/muecoin/btcd/zerocoin"
 
-	"github.com/btcsuite/goleveldb/leveldb"
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/filter"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/muecoin/goleveldb/leveldb"
+	"github.com/muecoin/goleveldb/leveldb/comparer"
+	ldberrors "github.com/muecoin/goleveldb/leveldb/errors"
+	"github.com/muecoin/goleveldb/leveldb/filter"
+	"github.com/muecoin/goleveldb/leveldb/iterator"
+	"github.com/muecoin/goleveldb/leveldb/opt"
+	"github.com/muecoin/goleveldb/leveldb/util"
 	"github.com/muecoin/btcd/chaincfg/chainhash"
 	"github.com/muecoin/btcd/database"
 	"github.com/muecoin/btcd/database/internal/treap"

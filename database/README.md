@@ -1,7 +1,7 @@
 database
 ========
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcd.svg)](https://travis-ci.org/btcsuite/btcd)
+[![Build Status](http://img.shields.io/travis/muecoin/btcd.svg)](https://travis-ci.org/muecoin/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/muecoin/btcd/database)
 
@@ -13,7 +13,7 @@ one entity can have the database open at a time (for most database backends),
 and that entity will be btcd.
 
 When a client wants programmatic access to the data provided by btcd, they'll
-likely want to use the [btcrpcclient](https://github.com/btcsuite/btcrpcclient)
+likely want to use the [btcrpcclient](https://github.com/muecoin/btcrpcclient)
 package which makes use of the [JSON-RPC API](https://github.com/muecoin/btcd/tree/master/docs/json_rpc_api.md).
 
 However, this package could be extremely useful for any applications requiring

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -21,8 +21,8 @@ import (
 	"github.com/muecoin/btcd/database"
 	"github.com/muecoin/btcd/wire"
 	"github.com/muecoin/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/muecoin/goleveldb/leveldb"
+	ldberrors "github.com/muecoin/goleveldb/leveldb/errors"
 )
 
 var (

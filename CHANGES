@@ -268,13 +268,13 @@ Changes in 0.10.0 (Sun Mar 01 2015)
   - Crypto changes:
     - Optimize scalar multiplication by the base point by using a
       pre-computed table which results in approximately a 35% speedup
-     (https://github.com/btcsuite/btcec/issues/2)
+     (https://github.com/muecoin/btcec/issues/2)
     - Optimize general scalar multiplication by using the secp256k1
       endomorphism which results in approximately a 17-20% speedup
-     (https://github.com/btcsuite/btcec/issues/1)
+     (https://github.com/muecoin/btcec/issues/1)
     - Optimize general scalar multiplication by using non-adjacent form
       which results in approximately an additional 8% speedup
-     (https://github.com/btcsuite/btcec/issues/3)
+     (https://github.com/muecoin/btcec/issues/3)
   - Implement optional address indexing:
     - Add a new parameter --addrindex which will enable the creation of an
       address index which can be queried to determine all transactions which

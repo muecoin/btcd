@@ -1,7 +1,7 @@
 wire
 ====
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcd.svg)](https://travis-ci.org/btcsuite/btcd)
+[![Build Status](http://img.shields.io/travis/muecoin/btcd.svg)](https://travis-ci.org/muecoin/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/muecoin/btcd/wire)
 
@@ -89,7 +89,7 @@ from a remote peer is:
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the muecoin developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at
