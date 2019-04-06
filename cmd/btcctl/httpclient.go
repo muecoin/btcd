@@ -11,7 +11,7 @@ import (
 	"net/http"
 
 	"github.com/muecoin/btcd/btcjson"
-	"github.com/muecoin/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 )
 
 // newHTTPClient returns a new HTTP client that is configured according to the

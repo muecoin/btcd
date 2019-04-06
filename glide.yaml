@@ -5,7 +5,7 @@ import:
   subpackages:
   - bloom
   - hdkeychain
-- package: github.com/muecoin/go-socks
+- package: github.com/btcsuite/go-socks
   subpackages:
   - socks
 - package: golang.org/x/crypto

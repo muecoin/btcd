@@ -9,7 +9,7 @@ imports:
   - base58
   - bloom
   - hdkeychain
-- name: github.com/muecoin/go-socks
+- name: github.com/btcsuite/go-socks
   version: 4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f
   subpackages:
   - socks

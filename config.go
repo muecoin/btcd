@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/muecoin/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/muecoin/btcd/blockchain"
 	"github.com/muecoin/btcd/chaincfg"

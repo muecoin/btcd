@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/muecoin/btcd/btcjson"
-	"github.com/muecoin/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 	"github.com/muecoin/websocket"
 )
 
