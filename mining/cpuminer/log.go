@@ -5,7 +5,7 @@
 package cpuminer
 
 import (
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 // log is a logger that is initialized with no output filters.  This

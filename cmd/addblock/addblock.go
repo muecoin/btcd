@@ -13,7 +13,7 @@ import (
 	"github.com/muecoin/btcd/blockchain/indexers"
 	"github.com/muecoin/btcd/database"
 	"github.com/muecoin/btcd/limits"
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 const (

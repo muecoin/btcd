@@ -9,7 +9,7 @@ import (
 
 	"github.com/muecoin/btcd/database"
 	"github.com/muecoin/btcd/wire"
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 var log = btclog.Disabled

@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/muecoin/btcutil"
 )
 

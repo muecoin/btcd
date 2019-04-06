@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/muecoin/btcd/database"
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 	flags "github.com/jessevdk/go-flags"
 )
 

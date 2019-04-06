@@ -12,7 +12,7 @@ import (
 	"github.com/muecoin/btcd/chaincfg/chainhash"
 	"github.com/muecoin/btcd/txscript"
 	"github.com/muecoin/btcd/wire"
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 const (

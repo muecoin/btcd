@@ -1,6 +1,6 @@
 package: github.com/muecoin/btcd
 import:
-- package: github.com/muecoin/btclog
+- package: github.com/btcsuite/btclog
 - package: github.com/muecoin/btcutil
   subpackages:
   - bloom

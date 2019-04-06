@@ -21,7 +21,7 @@ import (
 	"github.com/muecoin/btcd/netsync"
 	"github.com/muecoin/btcd/peer"
 	"github.com/muecoin/btcd/txscript"
-	"github.com/muecoin/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 
