@@ -20,7 +20,7 @@ import:
   - leveldb/iterator
   - leveldb/opt
   - leveldb/util
-- package: github.com/muecoin/websocket
+- package: github.com/btcsuite/websocket
 - package: github.com/muecoin/winsvc
   subpackages:
   - eventlog

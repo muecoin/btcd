@@ -30,7 +30,7 @@ import (
 	"github.com/muecoin/btcd/txscript"
 	"github.com/muecoin/btcd/wire"
 	"github.com/muecoin/btcutil"
-	"github.com/muecoin/websocket"
+	"github.com/btcsuite/websocket"
 )
 
 const (

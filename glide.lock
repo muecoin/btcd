@@ -30,7 +30,7 @@ imports:
   - leveldb/util
 - name: github.com/muecoin/snappy-go
   version: 0bdef8d067237991ddaa1bb6072a740bc40601ba
-- name: github.com/muecoin/websocket
+- name: github.com/btcsuite/websocket
   version: 31079b6807923eb23992c421b114992b95131b55
 - name: github.com/muecoin/winsvc
   version: f8fb11f83f7e860e3769a08e6811d1b399a43722

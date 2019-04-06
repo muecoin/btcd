@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/muecoin/websocket"
+	"github.com/btcsuite/websocket"
 	"github.com/muecoin/btcd/blockchain"
 	"github.com/muecoin/btcd/blockchain/indexers"
 	"github.com/muecoin/btcd/btcec"

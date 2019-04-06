@@ -25,7 +25,7 @@ import (
 
 	"github.com/muecoin/btcd/btcjson"
 	"github.com/btcsuite/go-socks/socks"
-	"github.com/muecoin/websocket"
+	"github.com/btcsuite/websocket"
 )
 
 var (
