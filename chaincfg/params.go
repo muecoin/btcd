@@ -236,9 +236,9 @@ var MainNetParams = Params{
 	BIP0065Height:            0, // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
 	BIP0066Height:            0, // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
 	CoinbaseMaturity:         50,
-	TargetTimespan:           time.Minute, // 1 minute
+	TargetTimespan:           time.Minute * 24, // 1 day
 	PoSTargetTimespan:        time.Minute * 40,
-	TargetTimePerBlock:       time.Minute, // 1 minutes
+	TargetTimePerBlock:       time.Second * 40, // 1 minutes
 	RetargetAdjustmentFactor: 4,           // 25% less, 400% more
 	ReduceMinDifficulty:      false,
 	MinDiffReductionTime:     0,
@@ -258,12 +258,12 @@ var MainNetParams = Params{
 
 	// Human-readable part for Bech32 encoded segwit addresses, as defined in
 	// BIP 173.
-	Bech32HRPSegwit: "ph", // always bc for main net
+	Bech32HRPSegwit: "mu", // always bc for main net
 
 	// Address encoding magics
-	PubKeyHashAddrID: 0x37, // starts with 1
-	ScriptHashAddrID: 0x0d, // starts with 3
-	PrivateKeyID:     0xd4, // starts with 5 (uncompressed) or K (compressed)
+	PubKeyHashAddrID: 0x10, // starts with 1
+	ScriptHashAddrID: 0x4c, // starts with 3
+	PrivateKeyID:     0x7e, // starts with 5 (uncompressed) or K (compressed)
 
 	// BIP32 hierarchical deterministic extended key magics
 	HDPrivateKeyID: [4]byte{0x02, 0x2d, 0x25, 0x33}, // starts with xprv
@@ -271,7 +271,7 @@ var MainNetParams = Params{
 
 	// BIP44 coin type used in the hierarchical deterministic path for
 	// address generation.
-	HDCoinType: 0x800001bc,
+	HDCoinType: 0x8000001f,
 }
 
 var (
