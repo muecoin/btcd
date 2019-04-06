@@ -21,8 +21,8 @@ import (
 	"github.com/muecoin/btcd/database"
 	"github.com/muecoin/btcd/wire"
 	"github.com/muecoin/btcutil"
-	"github.com/muecoin/goleveldb/leveldb"
-	ldberrors "github.com/muecoin/goleveldb/leveldb/errors"
+	"github.com/btcsuite/goleveldb/leveldb"
+	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
 )
 
 var (

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/muecoin/btcd/database/internal/treap"
-	"github.com/muecoin/goleveldb/leveldb"
-	"github.com/muecoin/goleveldb/leveldb/iterator"
-	"github.com/muecoin/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 const (

@@ -11,7 +11,7 @@ import:
 - package: golang.org/x/crypto
   subpackages:
   - ripemd160
-- package: github.com/muecoin/goleveldb
+- package: github.com/btcsuite/goleveldb
   subpackages:
   - leveldb
   - leveldb/comparer

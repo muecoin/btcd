@@ -6,8 +6,8 @@ package ffldb
 
 import (
 	"github.com/muecoin/btcd/database/internal/treap"
-	"github.com/muecoin/goleveldb/leveldb/iterator"
-	"github.com/muecoin/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 // ldbTreapIter wraps a treap iterator to provide the additional functionality

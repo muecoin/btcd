@@ -13,7 +13,7 @@ imports:
   version: 4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f
   subpackages:
   - socks
-- name: github.com/muecoin/goleveldb
+- name: github.com/btcsuite/goleveldb
   version: 7834afc9e8cd15233b6c3d97e12674a31ca24602
   subpackages:
   - leveldb
